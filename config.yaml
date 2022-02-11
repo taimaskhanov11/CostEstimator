@@ -1,0 +1,15 @@
+
+
+login: taimaskhanovrasoul@gmail.com
+password: 7ecnyMLo
+home_page: https://www.faceit.com/ru
+price_page: https://lolz.guru/market/steam-value
+dashboard: https://www.faceit.com/ru/dashboard
+
+# Важно!!! Когда закончите не забывайте закрывать все процессы Firefox/Chome через диспечер задач, чтобы не грузить память
+#________________________________________________________________
+# ****** Дополнительные настройки ******
+webdriver: Firefox
+headless: false
+thread_count: 1
+delay: 0.5
