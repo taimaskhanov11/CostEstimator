@@ -1,15 +1,79 @@
+# Важно!!! Когда закончите не забывайте закрывать все процессы Firefox/Chome через диспечер задач, чтобы не грузить память
 
-
+# ****************************** Основные настройки ******************************************
+#_____________________________________________________________________________________________________________
 login: taimaskhanovrasoul@gmail.com
 password: 7ecnyMLo
+
+#!!!!!!!!!!!!!!!!!!!!!! Заполнить acc_api_key !!!!!!!!!!!!!!!!!!!!!!!!!!
+acc_api_key: d53378a2-f0eb-4691-b7c4-7e1038447d6f
+
+# Тип матчей. RANKED/RANKED PREMIUM
+match_type : RANKED PREMIUM
+
+# Уровень для проверки
+player_level: 9
+
+# Стоимость аккаунта больше
+player_account_cost: 22000
+#_____________________________________________________________________________________________________________
+
+
+
+# ************************************ Дополнительные настройки ******************************
+# Менять если знаете что делаете
+# Время для ввода капчи
+captcha_time: 40
+
+# Уровень логирования
+log_level: TRACE
+
+webdriver: Chrome
+
+# ставить true чтобы запустить в фоне. Только после получения куки
+headless: false
+
+thread_count: 1
+delay: 0.5
+wait_for: 3
+home_delay: 5
+
+# urls
 home_page: https://www.faceit.com/ru
 price_page: https://lolz.guru/market/steam-value
 dashboard: https://www.faceit.com/ru/dashboard
+player_url: https://www.faceit.com/ru/players-modal/
 
-# Важно!!! Когда закончите не забывайте закрывать все процессы Firefox/Chome через диспечер задач, чтобы не грузить память
-#________________________________________________________________
-# ****** Дополнительные настройки ******
-webdriver: Firefox
-headless: false
-thread_count: 1
-delay: 0.5
+
+# faceit app api data
+api_key: caf21775-2519-40b6-af08-8672ccdd03e2
+api_url: https://open.faceit.com/data/v4/matches/
+
+# faceit acc session
+acc_api_player_url: https://open.faceit.com/data/v4/players?nickname=
+
+# lolz session
+cost_session_url: https://lolz.guru/market/steam-value
+
+cost_session_headers:
+  Accept: application/json, text/javascript, */*; q=0.01
+
+  #!!!!!!!!!!!!!!!!!!!!!! Поставить свои cookie с сайта https://lolz.guru !!!!!!!!!!!!!!!!!!!!!!!!!!
+  cookie: _ym_uid=1635707704586180899; _ym_d=1635707704; _ga=GA1.1.135183348.1635707704; G_ENABLED_IDPS=google; _ym_isad=2; df_uid=4fa5099a8e3fdf0464959806581fa56f; xf_session=8c1b18d64ca62adc8ec3aa3f76efcb7f; _ga_J7RS527GFK=GS1.1.1644580045.17.1.1644580173.0
+
+  accept-language: ru,en;q=0.9,la;q=0.8
+  accept-encoding: gzip, deflate, br'
+  content-type: application/x-www-form-urlencoded; charset=UTF-8
+  referer: https://lolz.guru/market/steam-value
+  x-ajax-referer: https://lolz.guru/market/steam-value
+  x-requested-with: XMLHttpRequest
+
+
+cost_session_params:
+  _xfRequestUri: /market/steam-value
+  _xfResponseType: json
+  _xfNoRedirect: 1
+  currency: rub
+  app_id: 730
+
+
