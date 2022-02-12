@@ -13,7 +13,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from base.driver import Firefox, Chrome
+from base.driver import Chrome, Firefox
 
 BASE_DIR = Path(__file__).parent.parent
 
