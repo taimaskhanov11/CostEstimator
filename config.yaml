@@ -2,20 +2,24 @@
 
 # ****************************** Основные настройки ******************************************
 #_____________________________________________________________________________________________________________
-login: taimaskhanovrasoul@gmail.com
-password: 7ecnyMLo
+login: your_login
+password: your_password
 
 #!!!!!!!!!!!!!!!!!!!!!! Заполнить acc_api_key !!!!!!!!!!!!!!!!!!!!!!!!!!
-acc_api_key: d53378a2-f0eb-4691-b7c4-7e1038447d6f
+acc_api_key: your_api_key
 
 # Тип матчей. RANKED/RANKED PREMIUM
-match_type : RANKED PREMIUM
+match_type: RANKED PREMIUM
 
 # Уровень для проверки
 player_level: 9
 
 # Стоимость аккаунта больше
 player_account_cost: 22000
+
+# Количество одновременых проверок
+thread_count: 5
+
 #_____________________________________________________________________________________________________________
 
 
@@ -33,7 +37,6 @@ webdriver: Chrome
 # ставить true чтобы запустить в фоне. Только после получения куки
 headless: false
 
-thread_count: 1
 delay: 0.5
 wait_for: 3
 home_delay: 5
